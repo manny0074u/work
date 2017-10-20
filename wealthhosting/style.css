@@ -1,0 +1,237 @@
+body {
+	overflow-x: hidden; 
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height:100%;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(dollars.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-bottom: 0px;
+	
+	
+}
+
+.container-fluid{
+
+	width: 100%;
+	height: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	
+}
+#header{
+	border-bottom: 5px solid #45b726;
+	box-shadow: 2px 3px 5px #000000;
+	font-weight: 900;
+	text-align: center;
+	color: #45b726;
+	line-height: 0.4px;
+	margin-top: 0px;
+	text-shadow: 3px 3px 2px #000000;
+	
+	position: relative;
+	z-index: 1;
+}
+
+.left{
+	margin-top: 0px;
+	background-color: #45b726;
+	padding-bottom: 10px;
+	COLOR: #fff;
+}
+.right{
+	margin-top: 40px;
+	padding-bottom: 0px;
+}
+
+img{border-radius: 5px;
+}
+.img-responsive1{
+	margin-top: -20px;
+}
+
+.right-hand{
+	margin-top: -20px;
+	margin-left: 0%;
+
+}
+
+.left-hand{
+	margin-top: -40px;
+	margin-bottom: 0px;
+	
+	// background: #ff5f01;
+	padding:120px;
+	color: #fff;
+	text-align: center;
+	font-size: auto;
+	text-shadow: 3px 3px 2px #000000;
+}
+
+
+
+ .navbar-fixed-bottom{
+	text-align: center;
+	color: #ffffff;
+	background: #f45b726;
+	border: 1px solid red;
+	padding: 10px;
+}
+
+.lock{
+	background-color: #45b726;
+	margin-top: -18px;
+	margin-bottom: 30px;
+	padding: 20px;
+	box-shadow: 8px 5px 15px #000000;
+}
+.button {
+    background-color: #45b726;
+    border: 3px solid #ffffff;
+	border-radius: 8px;
+    color: #ffffff;
+    padding: 30px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 40px;
+	margin-left: 0%;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px #000000;
+	
+}
+.button:Hover {
+	color: #45b726;
+	background-color: #ffffff;
+	border: 3px solid #45b726;
+	text-decoration: none;
+	box-shadow: 5px 5px 25px #888888;
+}
+
+.button1 {
+    background-color: #f45b726;
+    border: 3px solid #ffffff;
+	border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 0%;
+	box-shadow: 2px 3px 5px #000000;
+}
+.button1:Hover{
+	background-color: #ffffff;
+	color: #45b726;
+	border: 3px solid #45b726;
+	box-shadow: 5px 5px 25px #888888;
+	text-decoration: none;
+}.button2{
+    background-color: #45b726;
+    border: 3px solid #ffffff;
+	border-radius: 8px;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 40%;
+	box-shadow: 0px 0px 15px #000000;
+	margin-top: 20px;
+}
+.button2:Hover{
+	background-color: #ffffff;
+	color: #45b726;
+	border: 3px solid #45b726;
+	box-shadow: 5px 5px 25px #45b726;
+	text-decoration: none;
+}
+.footer{
+	padding-top: -20px;
+	padding-bottom: 20px;
+	position: relative;
+	width: 100%;
+	height: 80px;
+	margin-top: 50%;
+	left: 0;
+	background-color: #ffffff;
+	display: block;
+	color: #45b726;
+	text-shadow: 3px 3px 2px #000000;
+}
+.foot{
+	padding-top: -20px;
+	padding-bottom: 22px;
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	margin-top: 43%;
+	left: 0;
+	background-color: #45b726;
+	display: block;
+	color: #ffffff;
+	text-shadow: 3px 3px 2px #000000;
+	
+}
+
+@media only screen and (max-width: 768px){
+	[class*="col-"] {
+		width: 100%;
+	}
+	.footer{
+		margin-top: 73%;
+		height: 100px;
+		padding-bottom: 20px;
+	}
+	.foot{
+		margin-top: 40%;
+		height: 220px;
+	}
+}
+@media only screen and (max-width: 576px){
+	[class*="col-"] {
+		width: 100%;
+	}
+	.footer{
+		margin-top: 73%;
+		height: 100px;
+		padding-bottom: 20px;
+	}
+	.foot{
+		margin-top: 25%;
+		height: 240px;
+		
+	}
+	.button2{
+    background-color: #45b726;
+    border: 3px solid #ffffff;
+	border-radius: 8px;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 25%;
+	box-shadow: 0px 0px 15px #000000;
+	margin-top: 20px;
+	}
+	#header{
+		margin-top: -20px;
+		
+	}
+}

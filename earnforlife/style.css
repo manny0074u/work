@@ -1,0 +1,98 @@
+body {
+
+	margin:0;
+	width: auto;
+	height:100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("Flying-Dollars-PNG-Picture.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.container{
+
+	width: auto;
+	height: 100%;
+	
+}
+#header{
+	border-bottom: 5px solid #45b726;
+	background: #ffffff;
+	text-align: center;
+	color: #45b726;
+	margin-top: -20px;
+	text-shadow: 5px 3px 3px #000000;
+	
+}
+
+
+
+img{border-radius: 5px;
+}
+
+.right-hand{
+	margin-top: 60px;
+
+}
+
+.left-hand{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background: #45b726;
+	padding:20px;
+	color:white;
+
+	font-size: auto;
+}
+
+
+
+ .navbar-fixed-bottom{
+	text-align: center;
+	color: #ffffff;
+	background: #45b726;
+	border: 1px solid #45b726;
+	padding: 10px;
+}
+
+.lock{
+	
+	margin-top: 0px;
+	padding: 20px;
+}
+.button {
+    background-color: #ffffff;
+    border: 3px solid #f20000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {
+	margin-left: 40%;
+}
+
+.button1 {
+    background-color: #45b726;
+    border: 3px solid #ffffff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 35%;
+	box-shadow: 5px 5px 25px #000000;
+}
+.button1:Hover{
+	background-color: #ffffff;
+	color: #45b726;
+	border: 3px solid #45b726;
+	text-decoration: none;
+	box-shadow: 5px 5px 25px #000000;
+}
